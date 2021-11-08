@@ -38,6 +38,9 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+th {
+    text-align: left;
+}
 h2 {
     margin: 12px;
 }
@@ -86,9 +89,14 @@ footer {
 .tablerow {
     padding-right: 40px;
 }
-.asidetablepadding {
+.asidetablepaddingleft {
     padding-top: 4px;
     padding-bottom: 4px;
+}
+.asidetablepaddingright  {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: right;
 }
 .asidetable {
     width: 300px;
@@ -121,6 +129,7 @@ footer {
 #checkoutbutton {
     border: 2px solid black;
     padding: 1px;
+    text-align: center;
 }
 #h1margin {
     margin: 16px;
