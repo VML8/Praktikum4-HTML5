@@ -1,0 +1,73 @@
+h1 {
+    margin-left: 10px;
+    margin-top: 0;
+}
+h4 {
+    margin: auto;
+    text-decoration-line: underline;
+}
+video {
+    width: 100%;
+}
+i {
+    font-size: larger;
+}
+.Top {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ProfileImage {
+    width: 25%;
+    height: 175px;
+}
+.Profile {
+    width: 50%;
+}
+.Categories {
+    width: 12%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    flex: end;
+}
+.Paragraph {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Media {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+.mediabox {
+    width: 36%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#main {
+    margin:auto;
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Profile {
+    line-height: 170%;
+}
+#Categories {
+    text-align: right;
+    line-height: 150%;
+}
+#attachments {
+    width: 20%;
+    margin: 5px;
+}
+#pfp {
+    width: 100%;
+}

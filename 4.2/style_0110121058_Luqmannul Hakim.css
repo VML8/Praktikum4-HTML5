@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+nav {
+    display: flex;
+    width: (100% - 2px);
+    border-bottom: 2px solid black;
+    background-color: honeydew;
+    justify-content: space-between;
+}
+main {
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+aside {
+    margin: 30px;
+    padding: 10px;
+    margin-bottom: auto;
+    background-color: burlywood;
+}
+thead {
+    border-top: 1px solid gray; border-bottom: 1px solid gray;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+h2 {
+    margin: 12px;
+}
+h3 {
+    margin: 3px;
+    padding: 3px;
+}
+img {
+    margin: 6px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.topnav {
+    display: flex;
+    padding: 5px;
+}
+.topnavleft {
+    display: flex;
+    align-items: center;
+}
+.topnavright {
+    display: flex;
+    align-items: center;
+}
+.navitem {
+    margin: 10px;
+}
+.tableitem {
+    display: flex;
+    align-items: center;
+    min-width: 450px ;
+}
+.tablepadding {
+    padding: 3px;
+}
+.tableborder {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.tablerow {
+    padding-right: 40px;
+}
+.asidetablepadding {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.asidetable {
+    width: 300px;
+}
+.footerright {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.footerleft {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.footerleftcontent {
+    display: flex;
+}
+.footeritem1 {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.footeritem2 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#subtotal {
+    text-align: right;
+}
+#itemtable {
+    width: 70%;
+}
+#checkoutbutton {
+    border: 2px solid black;
+    padding: 1px;
+}
+#h1margin {
+    margin: 16px;
+}
